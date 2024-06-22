@@ -1,0 +1,1 @@
+g++ -I../src/Include -L../src/Lib -o UnicodeTrial.exe UnicodeTrial.cpp -lbgi -lgdi32 -luser32
