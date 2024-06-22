@@ -1,1 +1,3 @@
-g++ -I../src/Include -L../src/Lib -o UnicodeTrial.exe UnicodeTrial.cpp -lbgi -lgdi32 -luser32
+g++ -I../src/Include -L../src/Lib -o "Test Graphics.exe" "Test Graphics.cpp" -lbgi -lgdi32 -luser32
+g++ -I../src/Include -L../src/Lib -o "Test Winbgim.exe" "Test Winbgim.cpp" -lbgi -lgdi32 -luser32
+g++ -I../src/Include -L../src/Lib -o "FunctionDrawer.exe" "FunctionDrawer.cpp" -lbgi -lgdi32 -luser32

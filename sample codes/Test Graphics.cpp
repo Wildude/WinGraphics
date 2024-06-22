@@ -1,12 +1,11 @@
-#include<graphics.h>
+#include<gfx/graphics.h>
 #include<conio.h>
-#include<dos.h>
-
-main()
+#include<direct.h>
+int main(int arn, char** args)
 {
    int gd = DETECT, gm, x, y, color, angle = 0;
-   struct arccoordstype a, b;
-   initgraph(&gd, &gm, "C:\\TC\\BGI");
+   arccoordstype a, b;
+   initgraph(&gd, &gm, (char*)"C:\\TC\\BGI");
    delay(2000);                                                                
    while(angle<=360)
    {
@@ -25,4 +24,5 @@ main()
    }
    getch();
    closegraph();
+   return 0;
 }

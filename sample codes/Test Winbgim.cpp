@@ -1,8 +1,6 @@
 /*	Test thu vien winbgim.h	*/
-
-#include <winbgim.h> 
-
-main(int argc, char *argv[])
+#include <gfx/winbgim.h> 
+int main(int argc, char *argv[])
 {
 	initwindow(300, 300);					// init window graphics
 	setbkcolor(1);							// set background
@@ -10,4 +8,5 @@ main(int argc, char *argv[])
 	setcolor(14);							// set text color
 	outtextxy(50,100,"Graphics in Dev-C++");// print text in window graphics
 	while(!kbhit()) delay(1);				// pause screen	
+	return 0;
 }
